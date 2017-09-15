@@ -1,0 +1,70 @@
+<!-- Genetic Art: Algorithms Project by Frederik Jensen
+     This is a quickly setup html page that displays the
+     logic of the algorithm. -->
+<html>
+    <head>
+        <title>Genetic Art v1</title>
+
+        <!-- Load in dependencies -->
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+        <script lang="text/javascript" src="processing.min.js"></script>
+        <script lang="text/javascript" src="artmaker.js"></script>
+        
+        <!-- Add quick popover style for genetic data display. -->
+        <style>
+            .popover {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1010;
+                display: none;
+                max-width: auto;
+                word-wrap: break-word;
+                padding: 1px;
+                text-align: left;
+                white-space: normal;
+                background-color: #ffffff;
+                border: 1px solid #ccc;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+                -webkit-border-radius: 6px;
+                -moz-border-radius: 6px;
+                  border-radius: 6px;
+                -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                -webkit-background-clip: padding-box;
+                -moz-background-clip: padding;
+                  background-clip: padding-box;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container-fluid">
+            <!-- Header -->
+            <div class="row">
+                <div class="col-md-7">
+                    <h2>Genetic Art: Algorithms Project by Frederik Jensen</h2>
+                </div>
+                <div class="col-md-5 form-inline" style="padding-top:20px;padding-bottom:20px;">
+                    Mutation Rate:&nbsp;<input type="text" id="mutationRate" class="form-control" style="width:50px"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Generation: <span id="populationNumber"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="btn btn-danger" data-placement="bottom" data-toggle="popover" title="Fit Individuals" data-content="Click on a canvas to mark the painting as fit.">Marked: <span id="fitnessMarked"></span></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="btn btn-primary" id="generation">New Generation</button>
+                </div>
+            </div>  
+        </div>
+        
+        <div class="container-fluid">
+            <div id="gallery">
+                <!--Content will be inserted here -->
+            </div>
+        </div>
+        
+        
+    </body>
+</html>
