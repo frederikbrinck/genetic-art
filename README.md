@@ -19,4 +19,4 @@ In order to drive forward your artwork generations, click on the artworks that y
 
 ![Generation 1](https://github.com/frederikbrinck/genetic-art/blob/master/algo_gen1.png)
 
-That's is! You can also play around with the mutation rate, look at the artworks' DNA strings, and see which artworks you have marked fit for the next generation.
+That's it! You can also play around with the mutation rate, look at the artworks' DNA strings, and see which artworks you have marked fit for the next generation.
