@@ -9,13 +9,13 @@ Documentation
 In order to run the application, do the following
 
 * Clone or download the repository
-* Navigate to the folder and open index.html in your browser.
+* Navigate to the downloaded folder and open index.html in your browser.
 
-Randomly genetic artworks are then display:
+Randomly genetic artworks are then displayed:
 
 ![Generation 0](https://github.com/frederikbrinck/genetic-art/blob/master/algo_start.png)
 
-In order to drive forward your artwork generations, click on the artworks that you find the most beautiful. Then hit the *New Generation* button to produce a new generation consisting of those most fit artworks. 
+In order to drive forward your artwork generations, click on the artworks that you find the most beautiful. Then hit the *New Generation* button to produce a new generation consisting of the artworks you marked as fit. 
 
 ![Generation 1](https://github.com/frederikbrinck/genetic-art/blob/master/algo_gen1.png)
 
