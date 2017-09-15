@@ -13,10 +13,10 @@ In order to run the application, do the following
 
 Randomly genetic artworks are then display:
 
-![Generation 0](https://github.com/frederikbrinck/genetic_art/algo_start.png)
+![Generation 0](https://github.com/frederikbrinck/genetic-art/blob/master/algo_start.png)
 
 In order to drive forward your artwork generations, click on the artworks that you find the most beautiful. Then hit the *New Generation* button to produce a new generation consisting of those most fit artworks. 
 
-![Generation 1](https://github.com/frederikbrinck/genetic_art/algo_gen1.png)
+![Generation 1](https://github.com/frederikbrinck/genetic-art/blob/master/algo_gen1.png)
 
 That's is! You can also play around with the mutation rate, look at the artworks' DNA strings, and see which artworks you have marked fit for the next generation.
